@@ -7,6 +7,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CustomMaterialModule} from './custom-material.module';
 import {MainModule} from './main/main.module';
 import {ClanModule} from './clan/clan.module';
+import {OutilsModule} from './outils/outils.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {ClanModule} from './clan/clan.module';
     BrowserAnimationsModule,
     CustomMaterialModule,
     MainModule,
-    ClanModule
+    ClanModule,
+    OutilsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

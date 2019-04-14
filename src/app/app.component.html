@@ -5,11 +5,7 @@
     <span class="example-spacer"></span>
     <button  class="example-button" mat-flat-button><mat-icon>new_releases</mat-icon> News</button>
     <button class="example-button" mat-flat-button routerLink="/clan"><mat-icon>group</mat-icon> Le clan</button>
-    <button class="example-button" mat-flat-button [matMenuTriggerFor]="menu"><mat-icon>build</mat-icon> Outils</button>
-    <mat-menu #menu="matMenu">
-      <button mat-menu-item>Builds</button>
-      <button mat-menu-item>Artefacts</button>
-    </mat-menu>
+    <button class="example-button" mat-flat-button routerLink="/outils"><mat-icon>build</mat-icon> Outils</button>
   </mat-toolbar-row>
 </mat-toolbar>
 
